@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mvm">
+      <UniqueIdentifier>{975d2b18-681c-4c72-a279-d7906e87e05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mvm\inc">
+      <UniqueIdentifier>{f0aa3caf-7fd2-4cd6-9009-a48ac70617c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mvm\src">
+      <UniqueIdentifier>{86eb0e58-f75c-4342-a5be-5cb33850693b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_attributes.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_class_loader.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_const_pool.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_data_reader.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_error_report.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_heap.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_info.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_native_api.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_sdk.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_stack.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_type.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+    <ClCompile Include="mvm\src\mvm_sync.cpp">
+      <Filter>mvm\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mvm\inc\mvm.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_attributes.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_class_loader.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_const_pool.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_data_reader.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_error_report.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_heap.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_info.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_native_api.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_opcodes.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_stack.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_std_type.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_type.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_sdk.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mvm\inc\mvm_sync.h">
+      <Filter>mvm\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

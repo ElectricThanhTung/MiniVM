@@ -1,0 +1,15 @@
+*.ilk
+*.pdb
+*.obj
+*.iobj
+*.ipdb
+*.tlog
+*.idb
+*.user
+
+.vs
+mvm/mvm/Debug
+mvm/mvm/Release
+
+mvmtool/mvmtool/Debug
+mvmtool/mvmtool/Release
